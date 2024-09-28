@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import Feature from "./sections/Feature";
 import Pricing from "./sections/Pricing";
 import Faq from "./sections/Faq";
+import Download from "./sections/Download";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Feature />
       <Pricing />
       <Faq/>
+      <Download/>
     </main>
   );
 };
