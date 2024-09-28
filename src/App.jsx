@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./sections/header";
 import Hero from "./sections/Hero";
 import Feature from "./sections/Feature";
+import Pricing from "./sections/Pricing";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Hero />
       <Feature />
+      <Pricing />
     </main>
   );
 };
